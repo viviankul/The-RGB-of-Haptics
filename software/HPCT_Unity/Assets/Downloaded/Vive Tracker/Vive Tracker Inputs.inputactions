@@ -1,0 +1,54 @@
+{
+    "name": "Vive Tracker Inputs",
+    "maps": [
+        {
+            "name": "Vive Tracker action map",
+            "id": "45117415-c1d5-4f8c-b45a-0a9ba928bad9",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "f098974d-28d2-47aa-80eb-192e90c6e773",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Orientation",
+                    "type": "Value",
+                    "id": "c47c64ee-87fb-46d2-be0d-47a22c026c3b",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "15587dde-7f5b-43c6-a3ea-6d55d978e7ff",
+                    "path": "<XRViveTracker>{Right Foot}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8ba91f4e-15cd-459f-97f6-d48a86105b30",
+                    "path": "<XRViveTracker>{Right Foot}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Orientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
