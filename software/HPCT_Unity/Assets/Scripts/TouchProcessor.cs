@@ -123,7 +123,8 @@ public class TouchProcessor : MonoBehaviour
             // Bumpiness
             int bumpsFrequency = 0;
 
-            int value = UnityEngine.Random.Range(0, 3);
+            // int value = UnityEngine.Random.Range(0, 3); //Irregular bumps
+            int value = 0 // No irregularities 
 
             if (averageVelocity >= (maxVelocity * 1))
             {
